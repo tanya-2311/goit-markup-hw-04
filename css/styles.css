@@ -220,6 +220,8 @@ button {
 /* section-hero */
 .hero {
     background-color: var(--backrground-secondary);
+    background-image: url(../images/background-img.jpg);
+    background-repeat: no-repeat;
     text-align: center;
     padding: 200px 0;
 
