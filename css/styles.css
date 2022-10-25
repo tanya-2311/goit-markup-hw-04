@@ -36,6 +36,7 @@
     --secondary-font: Raleway, san-serif;
     --border-background: #ECECEC;
     --border-photo: #EEEEEE;
+    --color-gradient: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -115,10 +116,7 @@ button {
 
 /* HEADER */
 .header {
-    /* background-color: var(--secondary-text-color);
-    padding: 0;
 
-    margin: auto; */
     border-bottom: 1px solid var(--border-background)
 }
 
@@ -217,11 +215,21 @@ button {
     color: var(--brand-color);
 }
 
+
 /* section-hero */
 .hero {
+    max-width: 1600px;
+    height: 600px;
+
     background-color: var(--backrground-secondary);
-    background-image: url(../images/background-img.jpg);
+    background-image: linear-gradient(to right,
+            var(--color-gradient),
+            var(--color-gradient)),
+        url(../images/background-img.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     text-align: center;
     padding: 200px 0;
 
@@ -309,9 +317,46 @@ button {
 
     width: 270px;
     flex-basis: calc(100%/4 - 30px);
-    margin-left: 30px;
+    margin-right: 30px;
+
 }
 
+.item:last-child {
+    margin-right: 0;
+}
+
+.item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--backrground-comand);
+    margin-bottom: 30px;
+
+
+}
+
+.icon-detalis::before {
+    background-image: url(../images/antenna.svg);
+    background-size: 70px;
+}
+
+.icon-punctuality::before {
+    background-image: url(../images/clock.svg);
+    background-size: 70px;
+}
+
+.icon-planning::before {
+    background-image: url(../images/diagram.svg);
+    background-size: 70px;
+}
+
+.icon-technologies::before {
+    background-image: url(../images/astronaut.svg);
+    background-size: 70px;
+}
 
 .section-features>.item:first-child {
     margin-left: 0;
