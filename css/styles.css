@@ -447,19 +447,30 @@ button {
 }
 
 /* стилі для лінків соцмереж */
-.social-list {
+.social {
     display: flex;
     width: 206px;
+    justify-content: center;
+    gap: 10px;
 
 
 }
 
 .social-items {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.social-links {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 44px;
     height: 44px;
+    background-color: var(--secondary-text-color);
+    border-radius: 50%;
 }
 
 /* footer */
