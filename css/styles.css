@@ -473,6 +473,14 @@ button {
     border-radius: 50%;
 }
 
+.social-links:hover {
+    background-color: var(--brand-color);
+}
+
+.social-icon {
+    fill: currentColor;
+}
+
 /* footer */
 .footer {
     background-color: var(--backrground-secondary);
