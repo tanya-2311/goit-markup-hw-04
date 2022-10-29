@@ -470,13 +470,13 @@ button {
     justify-content: center;
     width: 44px;
     height: 44px;
-    color: var(--icons-color);
+    fill: var(--icons-color);
     background-color: var(--secondary-text-color);
     border-radius: 50%;
 }
 
 .social-links:hover,
-.social-links:hover {
+.social-links:focus {
     fill: var(--secondary-text-color);
     background-color: var(--brand-color);
 }
