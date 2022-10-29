@@ -476,7 +476,7 @@ button {
 
 .social-links:hover,
 .social-links:hover {
-    color: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
     background-color: var(--brand-color);
 }
 
