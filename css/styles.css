@@ -325,7 +325,7 @@ button {
     margin-right: 0;
 }
 
-.item::before {
+/* .item::before {
     display: block;
     content: "";
     height: 120px;
@@ -356,7 +356,7 @@ button {
 .icon-technologies::before {
     background-image: url(../images/astronaut.svg);
     background-size: 70px;
-}
+} */
 
 .section-features>.item:first-child {
     margin-left: 0;
