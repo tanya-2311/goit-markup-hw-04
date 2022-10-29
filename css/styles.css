@@ -325,6 +325,16 @@ button {
     margin-right: 0;
 }
 
+/* icon-features-div (наші особливості svg) */
+.icon-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backrground-comand);
+    width: 270px;
+    height: 120px;
+}
+
 /* .item::before {
     display: block;
     content: "";
