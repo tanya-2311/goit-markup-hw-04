@@ -28,7 +28,7 @@
     --secondary-text-color: #FFFFFF;
     --logo-text-color: #000000;
     --button-text-focus: #188CE8;
-
+    --icons-color: #AFB1B8;
     --color-info: rgba(255, 255, 255, 0.6);
     --backrground-comand: #F5F4FA;
     --backrground-secondary: #2F303A;
@@ -194,7 +194,7 @@ button {
 .nav-contacts {
     display: flex;
     margin-left: auto;
-    /* background-color: red; */
+
 }
 
 .nav-contacts .contact-item+.contact-item {
@@ -469,10 +469,12 @@ button {
     justify-content: center;
     width: 44px;
     height: 44px;
+    color: var(--icons-color);
     background-color: var(--secondary-text-color);
     border-radius: 50%;
 }
 
+.social-links:hover,
 .social-links:hover {
     color: var(--secondary-text-color);
     background-color: var(--brand-color);
