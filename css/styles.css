@@ -336,38 +336,7 @@ button {
     margin-bottom: 30px;
 }
 
-/* .item::before {
-    display: block;
-    content: "";
-    height: 120px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--backrground-comand);
-    margin-bottom: 30px;
 
-
-}
-
-.icon-detalis::before {
-    background-image: url(../images/antenna.svg);
-    background-size: 70px;
-}
-
-.icon-punctuality::before {
-    background-image: url(../images/clock.svg);
-    background-size: 70px;
-}
-
-.icon-planning::before {
-    background-image: url(../images/diagram.svg);
-    background-size: 70px;
-}
-
-.icon-technologies::before {
-    background-image: url(../images/astronaut.svg);
-    background-size: 70px;
-} */
 
 .section-features>.item:first-child {
     margin-left: 0;
@@ -475,6 +444,22 @@ button {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+}
+
+/* стилі для лінків соцмереж */
+.social-list {
+    display: flex;
+    width: 206px;
+
+
+}
+
+.social-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
 }
 
 /* footer */
