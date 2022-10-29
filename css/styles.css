@@ -449,7 +449,6 @@ button {
 /* стилі для лінків соцмереж */
 .social {
     display: flex;
-    width: 206px;
     justify-content: center;
     align-items: center;
     gap: 10px;
