@@ -478,6 +478,7 @@ button {
 .social-links:hover,
 .social-links:focus {
     color: var(--secondary-text-color);
+
     background-color: var(--brand-color);
 }
 
