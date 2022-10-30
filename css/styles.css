@@ -602,8 +602,8 @@ button {
     justify-content: center;
     width: 44px;
     height: 44px;
-    color: var(--icons-color);
-    background-color: var(--main-text-color);
+    color: var(--secondary-text-color);
+    background-color: #FFFFFF 10%;
     border-radius: 50%;
     margin-top: 16px;
 }
