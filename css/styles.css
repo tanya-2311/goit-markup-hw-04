@@ -511,6 +511,13 @@ button {
     justify-content: center;
     border: 1px solid var(--icons-color);
     border-radius: 4px;
+    color: var(--icons-color);
+
+
+}
+
+.clients-icon {
+    fill: currentColor;
 }
 
 /* footer */
