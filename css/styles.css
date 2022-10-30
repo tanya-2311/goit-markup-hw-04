@@ -492,11 +492,12 @@ button {
 
 }
 
-/* .clients-item {
+.clients-item {
     width: 170px;
     height: 92px;
+}
 
-} */
+
 
 .our-clients {
     display: flex;
@@ -509,8 +510,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
-    height: 92px;
+    /* width: 170px;
+    height: 92px; */
     border: 1px solid var(--icons-color);
     border-radius: 4px;
     color: var(--icons-color);
