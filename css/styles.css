@@ -218,14 +218,14 @@ button {
 /* svg для контактів */
 .contact-icon {
     margin-right: 10px;
-    fill: var(--main-text-color);
+    fill: currentColor;
 }
 
-.contact-icon:hover,
+/* .contact-icon:hover,
 .contact-icon:focus {
     fill: var(--brand-color);
 
-}
+} */
 
 /* section-hero */
 .hero {
