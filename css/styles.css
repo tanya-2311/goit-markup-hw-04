@@ -1,25 +1,6 @@
 /* палітра кольлорів */
-/* --color-brand { color: #2196F3; }*/
-/* color-main: { color: #757575;}
-     */
-/* color h: {color:#212121} */
-/* color-white-text: color: #FFFFFF; */
-/* backrground-main : #F5F5F5;*/
 
-/* backrground-secondary : 2F303A#;  */
 
-/* logo-color: #000000; */
-/* color-adress: #FFFFFF */
-/* color-info: color: rgba(255, 255, 255, 0.6); */
-/* html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-} */
 
 :root {
     --brand-color: #2196F3;
@@ -43,17 +24,11 @@ body {
     background-color: var(--secondary-text-color);
     color: var(--main-text-color);
     font-family: var(--primery-font);
-    /* font-style: normal;
-    font-weight: 400;
-    line-height: 1.71; */
     font-size: 14px;
     letter-spacing: 0.03em;
     margin: 0px;
 }
 
-/* h2,
-h3 {
-    color: var(--primary-text-color); */
 
 
 ul {
@@ -224,11 +199,6 @@ button {
     fill: currentColor;
 }
 
-/* .contact-icon:hover,
-.contact-icon:focus {
-    fill: var(--brand-color);
-
-} */
 
 /* section-hero */
 .hero {
@@ -530,7 +500,7 @@ button {
 }
 
 .clients-link:hover,
-.clients-link:hover {
+.clients-link:focus {
     color: var(--brand-color);
     border-color: var(--brand-color)
 }
@@ -603,7 +573,8 @@ button {
     width: 44px;
     height: 44px;
     color: var(--secondary-text-color);
-    background-color: #FFFFFF 10%;
+    background-color: var(--icons-color);
+
     border-radius: 50%;
     margin-top: 16px;
 }
