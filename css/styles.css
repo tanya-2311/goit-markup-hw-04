@@ -577,6 +577,7 @@ button {
 }
 
 .footer-title {
+    margin-bottom: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -592,6 +593,30 @@ button {
     display: flex;
     align-content: center;
     justify-content: center;
+    gap: 10px;
+}
+
+.social-links-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--icons-color);
+    background-color: var(--main-text-color);
+    border-radius: 50%;
+    margin-top: 16px;
+}
+
+.social-links-footer:hover,
+.social-links-footer:focus {
+    color: var(--secondary-text-color);
+
+    background-color: var(--brand-color);
+}
+
+.social-icon-footer {
+    fill: currentColor;
 }
 
 .footer-contacts {
