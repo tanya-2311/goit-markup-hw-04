@@ -492,13 +492,6 @@ button {
 
 }
 
-.clients-item {
-    width: 170px;
-    height: 92px;
-}
-
-
-
 .our-clients {
     display: flex;
     align-items: center;
@@ -506,12 +499,18 @@ button {
     gap: 30px;
 }
 
+.clients-item {
+    /* width: 170px;
+    height: 92px; */
+}
+
+
 .clients-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 170px;
-    height: 92px; */
+    width: 170px;
+    height: 92px;
     border: 1px solid var(--icons-color);
     border-radius: 4px;
     color: var(--icons-color);
