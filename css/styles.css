@@ -457,13 +457,6 @@ button {
 
 }
 
-.social-items {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-
-}
-
 .social-links {
     display: flex;
     align-items: center;
@@ -489,7 +482,7 @@ button {
 
 /* section class="clients */
 .clients {
-    outline: solid 1px color red;
+    outline: 1px solid color red;
     padding-top: 94px;
     margin-bottom: 86px;
 }
