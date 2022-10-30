@@ -497,6 +497,12 @@ button {
 
 }
 
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid color var(--icons-color);
+}
+
 .our-clients {
     display: flex;
     align-items: center;
