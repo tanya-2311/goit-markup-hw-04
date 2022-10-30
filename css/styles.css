@@ -576,6 +576,24 @@ button {
     align-items: baseline;
 }
 
+.footer-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--secondary-text-color);
+}
+
+.footer-social-list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 /*  PORTFOLIO */
 /* buttons-potfolio */
 .buttons-portfolio {
