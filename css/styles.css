@@ -482,7 +482,7 @@ button {
 
 /* section class="clients */
 .clients {
-    outline: 1px solid color red;
+    outline: 1px solid red;
     padding-top: 94px;
     margin-bottom: 86px;
 }
@@ -495,7 +495,7 @@ button {
 .clients-item {
     width: 170px;
     height: 92px;
-    border: 1px solid color var(--icons-color);
+    border: 1px solid var(--icons-color);
 }
 
 .our-clients {
@@ -504,6 +504,8 @@ button {
     justify-content: center;
     gap: 30px;
 }
+
+.clients-item {}
 
 /* footer */
 .footer {
