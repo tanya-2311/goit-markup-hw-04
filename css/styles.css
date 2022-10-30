@@ -505,20 +505,25 @@ button {
     gap: 30px;
 }
 
-.clients-item {
+.clients-link {
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid var(--icons-color);
     border-radius: 4px;
     color: var(--icons-color);
-
-
 }
 
 .clients-icon {
     fill: currentColor;
 }
+
+.clients-link:hover,
+.clients-link:hover {
+    color: var(--brand-color);
+    border-color: var(--brand-color)
+}
+
 
 /* footer */
 .footer {
