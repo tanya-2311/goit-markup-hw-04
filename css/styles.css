@@ -594,6 +594,10 @@ button {
     justify-content: center;
 }
 
+.footer-contacts {
+    margin-right: 70px;
+}
+
 /*  PORTFOLIO */
 /* buttons-potfolio */
 .buttons-portfolio {
