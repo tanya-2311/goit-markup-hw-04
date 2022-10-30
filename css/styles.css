@@ -202,6 +202,8 @@ button {
 }
 
 .title-contact {
+    display: flex;
+    align-items: center;
     color: var(--main-text-color);
     text-decoration: none;
     font-style: normal;
@@ -217,6 +219,8 @@ button {
 
 /* svg для контактів */
 .contact-icon {
+    display: flex;
+
     margin-right: 10px;
     fill: currentColor;
 }
