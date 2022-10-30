@@ -645,6 +645,8 @@ button {
 
 .portfolio-link {
     display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .portfolio-link:hover {
