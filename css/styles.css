@@ -488,6 +488,7 @@ button {
 
 /* section class="clients */
 .clients {
+    outline: solid 1px color red;
     padding-top: 94px;
     margin-bottom: 86px;
 }
