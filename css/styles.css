@@ -486,9 +486,20 @@ button {
 }
 
 /* section class="clients */
+.clients {
+    padding: 94px 0;
+}
+
 .clients-title {
     margin-bottom: 50px;
 
+}
+
+.our-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 /* footer */
