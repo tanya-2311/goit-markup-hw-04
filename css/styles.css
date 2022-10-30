@@ -495,7 +495,7 @@ button {
 .clients-item {
     width: 170px;
     height: 92px;
-    border: 1px solid var(--icons-color);
+
 }
 
 .our-clients {
@@ -505,7 +505,13 @@ button {
     gap: 30px;
 }
 
-.clients-item {}
+.clients-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--icons-color);
+    border-radius: 4px;
+}
 
 /* footer */
 .footer {
