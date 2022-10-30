@@ -488,6 +488,7 @@ button {
 /* section class="clients */
 .clients {
     padding: 94px 0;
+    margin-bottom: 86px;
 }
 
 .clients-title {
